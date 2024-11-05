@@ -5,15 +5,15 @@
 4. Follow the instructions displayed in the console.
 5. To stop the application, press the stop button.
 
-**Package structure :**
-com.library.managementsystem : base package 
-controller : has controller class. This reads the user operations and perform actions.
-operations : This has OperationsFactory class to create the Operation object. 
-             This also has operations grouped as admin, display, user, authentication based on functionalities.
-session : has SessionManagement class to save the active user in the session.
-authorization : has AuthorizationUtil class to check whether the user is authorised to perform specific operation.
-entities : has Book and User entity classes.
-repositories : has Book, User and inventory repository classes with data access functions.
+**Package structure :**<br>
+_com.library.managementsystem :_ base package <br>
+_controller :_ has controller class. This reads the user operations and perform actions.<br>
+_operations :_ This has OperationsFactory class to create the Operation object. 
+             This also has operations grouped as admin, display, user, authentication based on functionalities.<br>
+_session :_ has SessionManagement class to save the active user in the session.<br>
+_authorization :_ has AuthorizationUtil class to check whether the user is authorised to perform specific operation.<br>
+_entities :_ has Book and User entity classes.<br>
+_repositories :_ has Book, User and inventory repository classes with data access functions.<br>
 
 **Database Info :**
 _Note :_ 
